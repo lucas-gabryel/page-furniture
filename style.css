@@ -1,0 +1,99 @@
+body {
+    font-family: Open Sans;
+    text-align: center;
+    margin-top: 0;
+}
+
+#hero {
+    width: 572px;
+    margin: auto;
+}
+
+#text {
+    margin: 72px auto 80px;
+}
+
+#text h1 {
+    font-family: Inter;
+    line-height: 56px;
+    font-size: 49px;
+    font-weight: 400;
+
+    
+}
+
+#text h1 strong {
+    color: #f90;
+}
+
+#text p {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+span, a {
+    color: #f90;
+}
+
+/*footer{
+    border-top: 1px solid rgba(236, 239, 242, 1);
+    width: 568px;
+
+}*/
+
+
+
+footer a + a { /* esse a + a significa que ele vai pegar todos os a's que são antecedidos por outro a*/
+    margin-left: 28px;
+}
+
+#links {
+    margin: 8px auto 33px;
+}
+
+#line {
+    border: 1px solid #ECEFF2;
+    width: 568px;
+    margin: auto;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* #conteudo {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+}
+
+#text {
+    margin: 72px auto 80px;
+}
+
+#text h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#text strong {
+    font-weight: 700;
+    color: #F90;
+}
+
+#text p {
+    color: #7D7987;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+} */
